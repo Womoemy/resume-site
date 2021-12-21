@@ -1,0 +1,140 @@
+:root {
+    --font-family: 'Poppins', sans-serif;
+    --font-base-size: 16px;
+    --font-mobile-size: 14px;
+    --color-heading: #121212;
+    --color-accent: #0BCEAF;
+    --color-bg: #FCFCFC;
+    --color-paragraph: #D6D6D6;
+    --color-border: #383838;
+    --base-bg: #F5F8F9;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --radius-16: 16px;
+    --fancy-grey: #d5d5d5;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 8%;
+    font-family: var(--font-family);
+    font-size: var(--font-mobile-size);
+    font-weight: 300;
+    background-color: var(--color-bg);
+}
+.hero-box {
+    padding: 2em;
+}
+img {
+    display: block;
+    width: 80%;
+    height: 10%;
+    border-radius: 20%;
+    margin: 0 auto;
+    position: relative;
+}
+#myname {
+    text-align: center;
+    line-height: .9em;
+    align-self: center;
+    margin-top: 1em;
+}
+#job-title {
+    color: rgb(136, 136, 136);
+    margin-top: 0.3em;
+    font-weight: 500;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 0;
+}
+.links {
+    text-align: center;
+    padding: .5em;
+}
+#tel-no, #email-link {
+    display: inherit;
+}
+.links a, i {
+    color: var(--color-heading);
+    text-decoration: none;
+}
+.social-link {
+    padding: 4px 6px;
+    font-size: 28px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.title {
+    display: inline-block;
+}
+.fancy-underline {
+    background-color: var(--fancy-grey);
+    max-width: 100%;
+}
+.fancy-underline-color {
+    height: 0.125em;
+    background-color: var(--color-accent);
+    width: 30px;
+}
+.abt-me, .exp-desc, .edu-desc, .project-desc {
+    color: #666;
+    text-align: justify;
+}
+.abt-me, .skills, .exp, .edu, .mentions, .projects {
+    padding: 1em;
+    margin-top: .7em;
+    border: 1px solid #e5e5e5;
+    border-radius: var(--radius-16);
+    background-color: var(--base-bg);
+}
+.skill-point {
+    margin-bottom: 1em;
+}
+.progress-bar {
+    margin-top: .4em;
+    border: 1px solid grey;
+    border-radius: var(--radius-16);
+    background-color: var(--color-bg);
+    opacity: 0.8;
+}
+.percentage {
+    height: 8px;
+    background-color: var(--color-accent);
+    border-radius: var(--radius-16);
+}
+.progress-value {
+    color: #666;
+    float: right;
+}
+
+#react-progress { width: 40%; }
+#js-progress { width: 60%; }
+#css-progress { width: 80%; }
+#html-progress { width: 95%;}
+#btsp-progress { width: 60%; }
+#git-progress { width: 60%;}
+#fig-progress { width: 60%; }
+#googling-progress { width: 80%; }
+#comm-progress { width: 70%; }
+#psolving-progress { width: 70%; }
+#ideation-progress { width: 70%; }
+
+.date {
+    color: var(--color-accent);
+    font-variant: small-caps;
+    text-align: justify;
+}
+hr {
+    height: 2px;
+    background-color: #e5e5e5;
+    border: none;
+}
+.projects a {
+    text-decoration: none;
+    color: var(--color-accent);
+}
+
